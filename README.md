@@ -6,7 +6,7 @@ A Layer 2 enterprise network simulation for a company with **3 branches** connec
 The network is secured with port security and encrypted passwords, and all switches can be managed remotely via Telnet.
 
 ## Network Topology
-![Topology]()
+![Topology](Topology.png)
 
 ## Network Structure
 | Device | Role | Location |
