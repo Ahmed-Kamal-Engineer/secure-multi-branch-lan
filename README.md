@@ -4,6 +4,7 @@
 A Layer 2 enterprise network simulation for a company with **3 branches** connected through a **central switch**. Each branch contains **3 departments** (IT, HR, Sales), each isolated in its own VLAN. Users can communicate with their own department in the other branches, but not with other departments.
 
 The network is secured with port security and encrypted passwords, and all switches can be managed remotely via Telnet.
+for any asked password => cisco
 
 ## Network Topology
 ![Topology](Topology.png)
