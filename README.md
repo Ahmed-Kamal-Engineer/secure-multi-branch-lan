@@ -4,7 +4,6 @@
 A Layer 2 enterprise network simulation for a company with **3 branches** connected through a **central switch**. Each branch contains **3 departments** (IT, HR, Sales), each isolated in its own VLAN. Users can communicate with their own department in the other branches, but not with other departments.
 
 The network is secured with port security and encrypted passwords, and all switches can be managed remotely via Telnet.
-for any asked password => cisco
 
 ## Network Topology
 ![Topology](Topology.png)
@@ -50,6 +49,9 @@ Configured on all access ports connected to department PCs:
 - Telnet access enabled through VTY lines
 - Console access to switches from PCs using console cables
 
+### Lab Credentials
+All passwords in this lab (console, VTY, enable) are set to `cisco`. This is for simulation purposes only.
+
 ## Verification
 - Ping succeeds between PCs in the same VLAN across different branches
 - Ping fails between PCs in different VLANs
@@ -67,4 +69,4 @@ Configured on all access ports connected to department PCs:
 - Add Layer 3 routing for controlled inter-VLAN communication
 
 ## Author
-[Ahmed Kamal Mustafa] - [www.linkedin.com/in/ahmed-kamal-161136381]
+Ahmed Kamal – [LinkedIn](https://www.linkedin.com/in/ahmed-kamal-161136381)
